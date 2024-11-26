@@ -1,0 +1,91 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  display: flex;
+  text-align: justify;
+  background:linear-gradient(#d2d2df, #fae,#00000010,0.5);
+  padding: 20px;
+  margin-left: 20px;
+}
+.navbar-nav ul li {
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar-nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid black;
+  color: #d2d2df;
+  background-color: blue;
+}
+
+.navbar-nav ul li a:hover {
+  color: purple;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgb(6, 80, 39);
+}
+
+.navbar-nav ul li a:active {
+  background-color: red;
+  border: 2px solid black;
+  color: white;
+  border-radius: 2px;
+}
+
+/* .navbar-nav ul li {
+  
+  div{
+    display: inline;
+  }
+  a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    color:blue;
+  }
+  li{
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+}
+.navbar-nav a:hover{
+  color: purple;
+  border-radius: 2px solid back;
+  background-color: blue;
+ 
+}
+.navbar-nav a:active{
+  background-color: red;
+  border-radius: 2px solid black;
+  color: white;
+
+} */
+.img1-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    gap: 20px; /* space between cards */
+    padding: 20px;
+
+}
+.card{   
+    margin-bottom: 2rem;
+    border-radius: 2px solid gold;
+    img{
+      height: 14rem;
+      width: 14rem;
+      border: 2px solid gold;
+          
+    }
+    
+}
+
+  
+  

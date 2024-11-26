@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <!-- Define the source folder where your Java source code is located -->
+    <classpathentry kind="src" path="src"/>
+    <classpathentry kind="lib" path="D:\JKUATSTUDIES\JavaProg\AdvancedProgramming\ClassWork\JAVAPROGRAMMING\DATABASEGUIFOLDER\lib\mysql-connector-j-9.1.0.jar"/>
+    <!-- Define the output folder where compiled classes will be placed -->
+    <classpathentry kind="output" path="bin"/>
+</classpath>
