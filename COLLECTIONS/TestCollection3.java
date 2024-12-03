@@ -48,7 +48,7 @@ public class TestCollection3 {
         System.out.println("\nTraversing backward:");
         while (listIter.hasPrevious()) {
             System.out.print(listIter.previous()+ "\t");
-            System.out.println( listIter.previousIndex());
+             System.out.println( listIter.previousIndex());
         }
 
     }
