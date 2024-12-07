@@ -8,7 +8,7 @@ public class Server{
         //create a server object
        
 
-        try( ServerSocket cat = new ServerSocket(8080);) 
+        try( ServerSocket servSocket = new ServerSocket(8080);) 
             {
             System.out.println("Waiting for connection...");
             Socket link = servSocket.accept();
