@@ -11,11 +11,10 @@ public class SocketClient {
             System.out.println("Connected to server!");
            
             try {
-              BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
-              BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-              PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+                BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
+                BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
                 
-            }{
                 String message;
                 while (true) {
                     System.out.println("Enter a message to send to the server (or 'exit' to quit):");
@@ -27,11 +26,11 @@ public class SocketClient {
                         System.out.println("Disconnecting from server...");
                         break;
                     }
+                    out.println(message);
                     String serverResponse = in.readLine();
-                    System.out.println( serverResponse);
+                    System.out.println(serverResponse);
                 }
-            }
-            catch(IOException e){
+            } catch(IOException e) {
                 System.out.println("Error in communication" + e.getMessage());
             }
         } catch (Exception e) {
