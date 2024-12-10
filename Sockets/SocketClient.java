@@ -8,7 +8,7 @@ public class SocketClient {
 
         try (Socket clientSocket = new Socket("localhost", 12345)) {
 
-            System.out.println("Connected to server!");
+            System.out.println("Connected to server!");//waiting for connection to be established
            
             try {
                 BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
